@@ -67,6 +67,7 @@
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <AdditionalIncludeDirectories>MainView;LoadQssFile/;.\AllView\CSearchform;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -80,6 +81,7 @@
       <DebugInformationFormat />
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <AdditionalIncludeDirectories>.\AllView\CSearchform;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -88,6 +90,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AllView\CSearchform\searchform.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Qt_Music.cpp" />
   </ItemGroup>
@@ -95,10 +98,15 @@
     <QtMoc Include="Qt_Music.h" />
   </ItemGroup>
   <ItemGroup>
+    <QtUic Include="AllView\CSearchform\searchform.ui" />
     <QtUic Include="Qt_Music.ui" />
   </ItemGroup>
   <ItemGroup>
     <QtRcc Include="Qt_Music.qrc" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="AllView\CSearchform\searchform.h" />
+    <ClInclude Include="LoadQssFile\loadfileqss.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">

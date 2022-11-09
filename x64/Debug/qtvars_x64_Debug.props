@@ -11,7 +11,7 @@
 <Qt_LIBPATH_>$(Qt_LIBPATH_);C:\Utils\postgresql\pgsql\lib</Qt_LIBPATH_> 
 <Qt_LIBS_>$(Qt_LIBS_);shell32.lib</Qt_LIBS_> 
 <Qt_INCLUDEPATH_
-      >$(Qt_INCLUDEPATH_);x64\Debug\moc;x64\Debug\uic</Qt_INCLUDEPATH_>
+      >$(Qt_INCLUDEPATH_);x64\Debug\moc;x64\Debug\moc\AllView\CSearchform;x64\Debug\uic\AllView\CSearchform;x64\Debug\uic</Qt_INCLUDEPATH_>
     <QtBkup_QtInstall
       >msvc2017_64</QtBkup_QtInstall>
     <QtBkup_QtModules

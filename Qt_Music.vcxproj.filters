@@ -23,6 +23,15 @@
       <Extensions>qrc;*</Extensions>
       <ParseFiles>false</ParseFiles>
     </Filter>
+    <Filter Include="LoadQssFile">
+      <UniqueIdentifier>{7606afdb-fe4a-456c-9ed0-902cd52071d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AllView">
+      <UniqueIdentifier>{7f9bebec-fb8f-4e74-b615-b401ce51742c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AllView\CSearchform">
+      <UniqueIdentifier>{16d7ed62-4673-4de3-8681-0e33fa35029c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -31,20 +40,34 @@
     <ClCompile Include="Qt_Music.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="AllView\CSearchform\searchform.cpp">
+      <Filter>AllView\CSearchform</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="Qt_Music.h">
       <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="AllView\CSearchform\searchform.h">
+      <Filter>AllView\CSearchform</Filter>
     </QtMoc>
   </ItemGroup>
   <ItemGroup>
     <QtUic Include="Qt_Music.ui">
       <Filter>Form Files</Filter>
     </QtUic>
+    <QtUic Include="AllView\CSearchform\searchform.ui">
+      <Filter>AllView\CSearchform</Filter>
+    </QtUic>
   </ItemGroup>
   <ItemGroup>
     <QtRcc Include="Qt_Music.qrc">
       <Filter>Resource Files</Filter>
     </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LoadQssFile\loadfileqss.h">
+      <Filter>LoadQssFile</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

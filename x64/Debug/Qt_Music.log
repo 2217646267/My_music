@@ -1,9 +1,13 @@
-﻿  uic Qt_Music.ui
-  rcc Qt_Music.qrc
-  moc Qt_Music.h
-   RCC: Warning: No resources in 'F:\code\vs_project\Qt_Music\Qt_Music.qrc'.
-  main.cpp
+﻿  moc AllView\CSearchform\searchform.h
+  searchform.cpp
   Qt_Music.cpp
-  qrc_Qt_Music.cpp
+  main.cpp
+F:\code\vs_project\Qt_Music\main.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\code\vs_project\Qt_Music\Qt_Music.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 main.cpp)
+F:\code\vs_project\Qt_Music\AllView\CSearchform\searchform.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\code\vs_project\Qt_Music\Qt_Music.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\code\vs_project\Qt_Music\Qt_Music.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 Qt_Music.cpp)
+  moc_searchform.cpp
   moc_Qt_Music.cpp
+F:\code\vs_project\Qt_Music\Qt_Music.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 x64\Debug\\moc\\moc_Qt_Music.cpp)
   Qt_Music.vcxproj -> F:\code\vs_project\Qt_Music\x64\Debug\Qt_Music.exe

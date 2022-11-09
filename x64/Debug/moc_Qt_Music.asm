@@ -6,44 +6,47 @@ INCLUDELIB MSVCRTD
 INCLUDELIB OLDNAMES
 
 CONST	SEGMENT
-$SG139543 DB	'invalid argument', 00H
-	ORG $+3
-$SG139544 DB	'%s', 00H
-	ORG $+9
-$SG139545 DB	'C:\Program Files (x86)\Microsoft Visual Studio\2019\Comm'
-	DB	'unity\VC\Tools\MSVC\14.28.29910\include\xmemory', 00H
-	ORG $+8
-$SG139546 DB	'C', 00H, ':', 00H, '\', 00H, 'P', 00H, 'r', 00H, 'o', 00H
-	DB	'g', 00H, 'r', 00H, 'a', 00H, 'm', 00H, ' ', 00H, 'F', 00H, 'i'
-	DB	00H, 'l', 00H, 'e', 00H, 's', 00H, ' ', 00H, '(', 00H, 'x', 00H
-	DB	'8', 00H, '6', 00H, ')', 00H, '\', 00H, 'M', 00H, 'i', 00H, 'c'
-	DB	00H, 'r', 00H, 'o', 00H, 's', 00H, 'o', 00H, 'f', 00H, 't', 00H
-	DB	' ', 00H, 'V', 00H, 'i', 00H, 's', 00H, 'u', 00H, 'a', 00H, 'l'
-	DB	00H, ' ', 00H, 'S', 00H, 't', 00H, 'u', 00H, 'd', 00H, 'i', 00H
-	DB	'o', 00H, '\', 00H, '2', 00H, '0', 00H, '1', 00H, '9', 00H, '\'
-	DB	00H, 'C', 00H, 'o', 00H, 'm', 00H, 'm', 00H, 'u', 00H, 'n', 00H
-	DB	'i', 00H, 't', 00H, 'y', 00H, '\', 00H, 'V', 00H, 'C', 00H, '\'
-	DB	00H, 'T', 00H, 'o', 00H, 'o', 00H, 'l', 00H, 's', 00H, '\', 00H
-	DB	'M', 00H, 'S', 00H, 'V', 00H, 'C', 00H, '\', 00H, '1', 00H, '4'
-	DB	00H, '.', 00H, '2', 00H, '8', 00H, '.', 00H, '2', 00H, '9', 00H
-	DB	'9', 00H, '1', 00H, '0', 00H, '\', 00H, 'i', 00H, 'n', 00H, 'c'
-	DB	00H, 'l', 00H, 'u', 00H, 'd', 00H, 'e', 00H, '\', 00H, 'x', 00H
-	DB	'm', 00H, 'e', 00H, 'm', 00H, 'o', 00H, 'r', 00H, 'y', 00H, 00H
-	DB	00H
-$SG139547 DB	's', 00H, 't', 00H, 'd', 00H, ':', 00H, ':', 00H, '_', 00H
-	DB	'A', 00H, 'l', 00H, 'l', 00H, 'o', 00H, 'c', 00H, 'a', 00H, 't'
-	DB	00H, 'e', 00H, '_', 00H, 'm', 00H, 'a', 00H, 'n', 00H, 'u', 00H
-	DB	'a', 00H, 'l', 00H, 'l', 00H, 'y', 00H, '_', 00H, 'v', 00H, 'e'
-	DB	00H, 'c', 00H, 't', 00H, 'o', 00H, 'r', 00H, '_', 00H, 'a', 00H
-	DB	'l', 00H, 'i', 00H, 'g', 00H, 'n', 00H, 'e', 00H, 'd', 00H, 00H
-	DB	00H
+$SG157256 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
+	DB	'ype.h', 00H
 	ORG $+2
-$SG139548 DB	'"', 00H, 'i', 00H, 'n', 00H, 'v', 00H, 'a', 00H, 'l', 00H
-	DB	'i', 00H, 'd', 00H, ' ', 00H, 'a', 00H, 'r', 00H, 'g', 00H, 'u'
-	DB	00H, 'm', 00H, 'e', 00H, 'n', 00H, 't', 00H, '"', 00H, 00H, 00H
-	ORG $+10
-$SG139604 DB	'C:\Program Files (x86)\Microsoft Visual Studio\2019\Comm'
-	DB	'unity\VC\Tools\MSVC\14.28.29910\include\xlocale', 00H
+$SG157257 DB	'qRegisterNormalizedMetaType was called with a not normal'
+	DB	'ized type name, please call qRegisterMetaType instead.', 00H
+	ORG $+1
+$SG157258 DB	'qRegisterNormalizedMetaType', 00H
+$SG160524 DB	'%s', 00H
+	ORG $+1
+$SG157608 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
+	DB	'ype.h', 00H
+	ORG $+2
+$SG157609 DB	'qRegisterNormalizedMetaType was called with a not normal'
+	DB	'ized type name, please call qRegisterMetaType instead.', 00H
+	ORG $+1
+$SG157610 DB	'qRegisterNormalizedMetaType', 00H
+	ORG $+4
+$SG157960 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
+	DB	'ype.h', 00H
+	ORG $+2
+$SG157961 DB	'qRegisterNormalizedMetaType was called with a not normal'
+	DB	'ized type name, please call qRegisterMetaType instead.', 00H
+	ORG $+1
+$SG157962 DB	'qRegisterNormalizedMetaType', 00H
+	ORG $+4
+$SG158961 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
+	DB	'ype.h', 00H
+	ORG $+2
+$SG158962 DB	'qRegisterNormalizedMetaType was called with a not normal'
+	DB	'ized type name, please call qRegisterMetaType instead.', 00H
+	ORG $+1
+$SG158963 DB	'qRegisterNormalizedMetaType', 00H
+	ORG $+4
+$SG159350 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
+	DB	'ype.h', 00H
+	ORG $+2
+$SG159351 DB	'qRegisterNormalizedMetaType was called with a not normal'
+	DB	'ized type name, please call qRegisterMetaType instead.', 00H
+	ORG $+1
+$SG159352 DB	'qRegisterNormalizedMetaType', 00H
+	ORG $+4
 ?qt_meta_stringdata_Qt_Music@@3Uqt_meta_stringdata_Qt_Music_t@@B DD 0ffffffffH ; qt_meta_stringdata_Qt_Music
 	DD	08H
 	DD	00H
@@ -75,37 +78,65 @@ $SG139604 DB	'C:\Program Files (x86)\Microsoft Visual Studio\2019\Comm'
 	DD	00H
 	DD	00H
 	ORG $+4
-$SG135006 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
+$SG159702 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
 	DB	'ype.h', 00H
-	ORG $+2
-$SG135007 DB	'qRegisterNormalizedMetaType was called with a not normal'
+	ORG $+10
+$SG159703 DB	'qRegisterNormalizedMetaType was called with a not normal'
 	DB	'ized type name, please call qRegisterMetaType instead.', 00H
 	ORG $+1
-$SG135008 DB	'qRegisterNormalizedMetaType', 00H
+$SG159704 DB	'qRegisterNormalizedMetaType', 00H
 	ORG $+4
-$SG137780 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
+$SG160054 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
 	DB	'ype.h', 00H
 	ORG $+2
-$SG137781 DB	'qRegisterNormalizedMetaType was called with a not normal'
+$SG160055 DB	'qRegisterNormalizedMetaType was called with a not normal'
 	DB	'ized type name, please call qRegisterMetaType instead.', 00H
 	ORG $+1
-$SG137782 DB	'qRegisterNormalizedMetaType', 00H
+$SG160056 DB	'qRegisterNormalizedMetaType', 00H
 	ORG $+4
-$SG138132 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
-	DB	'ype.h', 00H
+$SG160523 DB	'invalid argument', 00H
+	ORG $+15
+$SG160525 DB	'C:\Program Files (x86)\Microsoft Visual Studio\2019\Comm'
+	DB	'unity\VC\Tools\MSVC\14.28.29910\include\xmemory', 00H
+	ORG $+8
+$SG160526 DB	'C', 00H, ':', 00H, '\', 00H, 'P', 00H, 'r', 00H, 'o', 00H
+	DB	'g', 00H, 'r', 00H, 'a', 00H, 'm', 00H, ' ', 00H, 'F', 00H, 'i'
+	DB	00H, 'l', 00H, 'e', 00H, 's', 00H, ' ', 00H, '(', 00H, 'x', 00H
+	DB	'8', 00H, '6', 00H, ')', 00H, '\', 00H, 'M', 00H, 'i', 00H, 'c'
+	DB	00H, 'r', 00H, 'o', 00H, 's', 00H, 'o', 00H, 'f', 00H, 't', 00H
+	DB	' ', 00H, 'V', 00H, 'i', 00H, 's', 00H, 'u', 00H, 'a', 00H, 'l'
+	DB	00H, ' ', 00H, 'S', 00H, 't', 00H, 'u', 00H, 'd', 00H, 'i', 00H
+	DB	'o', 00H, '\', 00H, '2', 00H, '0', 00H, '1', 00H, '9', 00H, '\'
+	DB	00H, 'C', 00H, 'o', 00H, 'm', 00H, 'm', 00H, 'u', 00H, 'n', 00H
+	DB	'i', 00H, 't', 00H, 'y', 00H, '\', 00H, 'V', 00H, 'C', 00H, '\'
+	DB	00H, 'T', 00H, 'o', 00H, 'o', 00H, 'l', 00H, 's', 00H, '\', 00H
+	DB	'M', 00H, 'S', 00H, 'V', 00H, 'C', 00H, '\', 00H, '1', 00H, '4'
+	DB	00H, '.', 00H, '2', 00H, '8', 00H, '.', 00H, '2', 00H, '9', 00H
+	DB	'9', 00H, '1', 00H, '0', 00H, '\', 00H, 'i', 00H, 'n', 00H, 'c'
+	DB	00H, 'l', 00H, 'u', 00H, 'd', 00H, 'e', 00H, '\', 00H, 'x', 00H
+	DB	'm', 00H, 'e', 00H, 'm', 00H, 'o', 00H, 'r', 00H, 'y', 00H, 00H
+	DB	00H
+$SG160527 DB	's', 00H, 't', 00H, 'd', 00H, ':', 00H, ':', 00H, '_', 00H
+	DB	'A', 00H, 'l', 00H, 'l', 00H, 'o', 00H, 'c', 00H, 'a', 00H, 't'
+	DB	00H, 'e', 00H, '_', 00H, 'm', 00H, 'a', 00H, 'n', 00H, 'u', 00H
+	DB	'a', 00H, 'l', 00H, 'l', 00H, 'y', 00H, '_', 00H, 'v', 00H, 'e'
+	DB	00H, 'c', 00H, 't', 00H, 'o', 00H, 'r', 00H, '_', 00H, 'a', 00H
+	DB	'l', 00H, 'i', 00H, 'g', 00H, 'n', 00H, 'e', 00H, 'd', 00H, 00H
+	DB	00H
 	ORG $+2
-$SG138133 DB	'qRegisterNormalizedMetaType was called with a not normal'
+$SG160528 DB	'"', 00H, 'i', 00H, 'n', 00H, 'v', 00H, 'a', 00H, 'l', 00H
+	DB	'i', 00H, 'd', 00H, ' ', 00H, 'a', 00H, 'r', 00H, 'g', 00H, 'u'
+	DB	00H, 'm', 00H, 'e', 00H, 'n', 00H, 't', 00H, '"', 00H, 00H, 00H
+	ORG $+10
+$SG160584 DB	'C:\Program Files (x86)\Microsoft Visual Studio\2019\Comm'
+	DB	'unity\VC\Tools\MSVC\14.28.29910\include\xlocale', 00H
+$SG154317 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
+	DB	'ype.h', 00H
+	ORG $+10
+$SG154318 DB	'qRegisterNormalizedMetaType was called with a not normal'
 	DB	'ized type name, please call qRegisterMetaType instead.', 00H
 	ORG $+1
-$SG138134 DB	'qRegisterNormalizedMetaType', 00H
-	ORG $+4
-$SG138484 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
-	DB	'ype.h', 00H
-	ORG $+2
-$SG138485 DB	'qRegisterNormalizedMetaType was called with a not normal'
-	DB	'ized type name, please call qRegisterMetaType instead.', 00H
-	ORG $+1
-$SG138486 DB	'qRegisterNormalizedMetaType', 00H
+$SG154319 DB	'qRegisterNormalizedMetaType', 00H
 CONST	ENDS
 PUBLIC	?__empty_global_delete@@YAXPEAX@Z		; __empty_global_delete
 PUBLIC	?__empty_global_delete@@YAXPEAX_K@Z		; __empty_global_delete
