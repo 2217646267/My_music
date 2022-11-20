@@ -15,3 +15,36 @@ Qt_Music::Qt_Music(QWidget *parent)
     searchForm->hide();
     
 }
+
+void Qt_Music::mousePressEvent(QMouseEvent* event)
+{
+	//获取title widget 的高度，这里固定为60px
+	int titleHeight = ui.title_Widget->height();
+	if (event->y() < titleHeight)
+	{
+		last = event->globalPos(); //获取到按压的位置
+	}
+}
+
+void Qt_Music::mouseMoveEvent(QMouseEvent* event)
+{
+	int titleHeight = ui.title_Widget->height();
+	if (event->y() < titleHeight)
+	{
+		int dx = event->globalX() - last.x();
+		int dy = event->globalY() - last.y();
+		last = event->globalPos();
+		this->move(this->x() + dx, this->y() + dy);
+	}
+}
+
+void Qt_Music::mouseReleaseEvent(QMouseEvent* event)
+{
+	int titleHeight = ui.title_Widget->height();
+	if (event->y() < titleHeight)
+	{
+		int dx = event->globalX() - last.x();
+		int dy = event->globalY() - last.y();
+		this->move(this->x() + dx, this->y() + dy);
+	}
+}

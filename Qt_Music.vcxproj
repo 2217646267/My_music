@@ -91,6 +91,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AllView\CSearchform\searchform.cpp" />
+    <ClCompile Include="AllView\CSearchform\searchitem.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Qt_Music.cpp" />
   </ItemGroup>
@@ -99,6 +100,7 @@
   </ItemGroup>
   <ItemGroup>
     <QtUic Include="AllView\CSearchform\searchform.ui" />
+    <QtUic Include="AllView\CSearchform\searchitem.ui" />
     <QtUic Include="Qt_Music.ui" />
   </ItemGroup>
   <ItemGroup>
@@ -106,6 +108,7 @@
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="AllView\CSearchform\searchform.h" />
+    <QtMoc Include="AllView\CSearchform\searchitem.h" />
     <ClInclude Include="LoadQssFile\loadfileqss.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

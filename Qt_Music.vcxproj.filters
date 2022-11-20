@@ -43,6 +43,9 @@
     <ClCompile Include="AllView\CSearchform\searchform.cpp">
       <Filter>AllView\CSearchform</Filter>
     </ClCompile>
+    <ClCompile Include="AllView\CSearchform\searchitem.cpp">
+      <Filter>AllView\CSearchform</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="Qt_Music.h">
@@ -51,12 +54,18 @@
     <QtMoc Include="AllView\CSearchform\searchform.h">
       <Filter>AllView\CSearchform</Filter>
     </QtMoc>
+    <QtMoc Include="AllView\CSearchform\searchitem.h">
+      <Filter>AllView\CSearchform</Filter>
+    </QtMoc>
   </ItemGroup>
   <ItemGroup>
     <QtUic Include="Qt_Music.ui">
       <Filter>Form Files</Filter>
     </QtUic>
     <QtUic Include="AllView\CSearchform\searchform.ui">
+      <Filter>AllView\CSearchform</Filter>
+    </QtUic>
+    <QtUic Include="AllView\CSearchform\searchitem.ui">
       <Filter>AllView\CSearchform</Filter>
     </QtUic>
   </ItemGroup>
